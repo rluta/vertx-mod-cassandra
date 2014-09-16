@@ -51,7 +51,7 @@ The main configuration is via the normal config.json file for a Vert.x module.
     * "constant"|"ConstantReconnectionPolicy" - creates a `ConstantReconnectionPolicy` policy.  Expects additional numeric       field `delay` in ms.
     * "exponential"|"ExponentialReconnectionPolicy" - creates an `ExponentialReconnectionPolicy` policy.  Expects               additional numeric fields `base_delay` and `max_delay` in ms.
 
-Refer to the [Cassandra Java driver documentation](http://www.datastax.com/documentation/developer/java-driver/2.0/index.html) for a description of the remaining configuration options.
+Refer to the [Cassandra Java driver documentation](http://www.datastax.com/documentation/developer/java-driver/2.1/index.html) for a description of the remaining configuration options.
 
 
 A sample config looks like:
